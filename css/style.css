@@ -1,0 +1,78 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html,body{background-color: var(--bg-color);}
+
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --bg-color: #0F3460;
+    --primaria-color: #D6E4E5 ;
+    --color-global:  #8FD6E1;
+    --color-cinza: #9e9c9c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h2 {
+    font-size: 4em;
+    margin: 20px 0;
+    color: var(--primaria-color);
+}
+
+h3{
+    font-size: 2em;
+    color: var(--color-cinza);
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+div{
+    color: var(--color-global);
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.box{
+    font-size: 2em;
+    border: 3px solid var(--color-cinza);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    color: var(--primaria-color
+    );
+}
+
+div > i{
+    font-size: 2em;
+    color:rgb(33, 175, 132);
+}
+
+.menor > i{
+    color: crimson;
+}
+
+.btn-jogar {
+    padding: 9px 20px;
+    margin:30px 0;
+    background-color: rgb(136, 53, 69);
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn-jogar:active{
+    border: 2px solid gray;
+    background-color: rgb(97, 49, 58);
+    font-size: 19px;
+}
